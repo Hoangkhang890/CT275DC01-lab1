@@ -1,0 +1,58 @@
+ body {
+      background-color: #f8f9fa;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    /* Khung card tổng quát cho Form 1 & Form 2 */
+    .form-card {
+      max-width: 600px;
+      margin: 0 auto 2.5rem auto;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid #bce8f1;
+      background-color: #fff;
+    }
+    
+    /* Tiêu đề xanh nhạt giống ảnh đề bài cho Form 1 & 2 */
+    .form-card-header {
+      background-color: #d9edf7;
+      color: #31708f;
+      padding: 10px 15px;
+      font-weight: 500;
+      border-bottom: 1px solid #bce8f1;
+    }
+    
+    .form-card-body {
+      padding: 20px;
+    }
+
+    /* Styling riêng cho Form 3 (Inline Form) - Tiêu đề xanh lam */
+    .form-card-inline {
+      max-width: 750px;
+      border-color: #007bff;
+    }
+    
+    .form-card-inline .form-card-header {
+      background-color: #007bff;
+      color: #fff;
+      font-weight: 600;
+      border-bottom: none;
+    }
+
+    /* Styling riêng cho Modal (Form 4) */
+    .modal-header-custom {
+      justify-content: center;
+      position: relative;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .modal-header-custom .btn-close {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+    .modal-title-custom {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+    }
